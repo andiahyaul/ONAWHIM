@@ -10,7 +10,7 @@ interface CTASectionProps {
 export function CTASection({
   title = "Ready to Explore More?",
   description = "Discover our complete collection and connect with us across all platforms.",
-  buttonText = "Visit Our Linktree",
+  buttonText = "Our Linktree",
   linktreeUrl = "https://linktr.ee/onawhim._"
 }: CTASectionProps) {
   return (
