@@ -15,7 +15,7 @@ export function Footer({
         <div className="flex flex-col items-center space-y-6">
           {/* Brand Name */}
           <h3 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100">
-            Onawhim
+            Onawhim._
           </h3>
           
           {/* Social Media Links */}
