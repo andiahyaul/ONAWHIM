@@ -4,8 +4,8 @@ interface FooterProps {
 }
 
 export function Footer({
-  instagramUrl = "https://instagram.com/onawhim",
-  tiktokUrl = "https://tiktok.com/@onawhim"
+  instagramUrl = "https://instagram.com/onawhim._",
+  tiktokUrl = "https://tiktok.com/@onawhim._"
 }: FooterProps) {
   const currentYear = new Date().getFullYear();
 
@@ -15,7 +15,7 @@ export function Footer({
         <div className="flex flex-col items-center space-y-6">
           {/* Brand Name */}
           <h3 className="text-2xl font-bold text-neutral-900 dark:text-neutral-100">
-            ONAWHIM
+            Onawhim
           </h3>
           
           {/* Social Media Links */}
@@ -61,8 +61,8 @@ export function Footer({
 
           {/* Copyright */}
           <div className="text-center">
-            <p className="text-sm text-neutral-500 dark:text-neutral-400">
-              © {currentYear} ONAWHIM. All rights reserved.
+            <p className="text-sm font-inter text-neutral-500 dark:text-neutral-400">
+              © {currentYear} Onawhim. All rights reserved.
             </p>
           </div>
         </div>

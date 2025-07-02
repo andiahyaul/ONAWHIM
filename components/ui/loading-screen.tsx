@@ -59,9 +59,9 @@ export function LoadingScreen({
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.3, duration: 0.5 }}
-                  className="text-3xl font-bold text-white dark:text-black"
+                  className="text-2xl font-bold text-white dark:text-black"
                 >
-                  ON
+                  Onawhim
                 </motion.span>
               </div>
               
@@ -88,10 +88,10 @@ export function LoadingScreen({
               className="space-y-2"
             >
               <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-neutral-900 to-neutral-600 dark:from-neutral-100 dark:to-neutral-400 bg-clip-text text-transparent">
-                ONAWHIM
+                Onawhim._
               </h1>
               <p className="text-neutral-600 dark:text-neutral-400 text-lg">
-                Where Style Meets Spontaneity
+                
               </p>
             </motion.div>
             

@@ -7,8 +7,8 @@ interface AboutSectionProps {
 
 export function AboutSection({
   title = "About Onawhim",
-  subtitle = "Where Style Meets Spontaneity",
-  description = "Onawhim represents the perfect fusion of thoughtful design and spontaneous creativity. Our carefully curated collection of accessories embodies the spirit of living in the moment while maintaining an eye for timeless elegance.",
+  subtitle = "",
+  description = "Represents the perfect fusion of thoughtful design and spontaneous creativity. Our carefully curated collection of accessories embodies the spirit of living in the moment while maintaining an eye for timeless elegance.",
   features = [
     "Handpicked accessories for the modern individual",
     "Quality craftsmanship with attention to detail", 
@@ -37,7 +37,7 @@ export function AboutSection({
             
             <div className="space-y-4">
               <h4 className="text-lg font-semibold font-inter text-neutral-900 dark:text-neutral-100">
-                What Makes Us Different
+                Signature Touch
               </h4>
               <ul className="space-y-3">
                 {features.map((feature, index) => (

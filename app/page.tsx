@@ -49,16 +49,48 @@ export default function Home() {
   ];
 
   const imageSrcVal = "https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58";
-  const altTextVal = "Onawhim";
-  const captionTextVal = "Onawhim Accessory";
+  const altTextVal = "";
+  const captionTextVal = "";
 
   // Product data for modal
-  const productData = imageSrcValArr.map((imageUrl, index) => ({
-    imageSrc: imageUrl,
-    title: `ONAWHIM Collection #${index + 1}`,
-    description: "Discover the perfect blend of style and spontaneity with this carefully curated accessory. Each piece tells a unique story while maintaining our signature aesthetic of modern elegance.",
-    category: "Premium Accessories"
-  }));
+  const productData = [
+    {
+      imageSrc: 'https://media.discordapp.net/attachments/1387043965714300974/1389907215606878270/IMG_2435.jpeg?ex=68665377&is=686501f7&hm=87b9751a2bb917872d0f807abd79b2a8f8d079ec0b5a30f8b0b4e0ed16a05ecb&=&format=webp&width=979&height=1305',
+      title:'Onawhim Collection #1⁠',
+      description: "Discover the perfect blend of style and spontaneity with this carefully curated accessory. Each piece tells a unique story while maintaining our signature aesthetic of modern elegance.",
+      category: ""
+    },
+    {
+      imageSrc: "https://media.discordapp.net/attachments/1387043965714300974/1389907416027758735/IMG_2447.jpeg?ex=686653a7&is=68650227&hm=d682eeff6ec384c0a8363a0ff37ad4641b3a407d65a23c66ff320a99e28e3eab&=&format=webp&width=1305&height=1305",
+      title:'Onawhim Collection #2',
+      description: "Discover the perfect blend of style and spontaneity with this carefully curated accessory. Each piece tells a unique story while maintaining our signature aesthetic of modern elegance.",
+      category: ""
+    },
+    {
+      imageSrc: "https://media.discordapp.net/attachments/1387043965714300974/1389907416421765161/IMG_2446.jpeg?ex=686653a7&is=68650227&hm=f87ea9ec5054d3a59245f8dd1b0b20bc9fd1ebb9ccc8c6d3c29cf6058051928f&=&format=webp&width=1305&height=1305",
+      title: 'Onawhim Collection #3',
+      description: "Discover the perfect blend of style and spontaneity with this carefully curated accessory. Each piece tells a unique story while maintaining our signature aesthetic of modern elegance.",
+      category: ""
+    },
+    {
+      imageSrc: "https://media.discordapp.net/attachments/1387043965714300974/1389907416807768177/IMG_2445.jpeg?ex=686653a7&is=68650227&hm=b3cbe0f04595c8c047d22f558550bd41860e380f130648ee7be1c3e7e4068e47&=&format=webp&width=1305&height=1305",
+      title: 'Onawhim Collection #4',
+      description: "Discover the perfect blend of style and spontaneity with this carefully curated accessory. Each piece tells a unique story while maintaining our signature aesthetic of modern elegance.",
+      category: ""
+    },
+    {
+      imageSrc: "https://media.discordapp.net/attachments/1387043965714300974/1389906952997310474/Screenshot_2025-07-02_at_16.52.38.png?ex=68665338&is=686501b8&hm=4ed84f8d79f374ba0abe594c5c7009385875b04dbd3f645bfdfd9fb4622b0fdf&=&format=webp&quality=lossless&width=1055&height=1305",
+      title:' Onawhim Collection #5',
+      description: "Discover the perfect blend of style and spontaneity with this carefully curated accessory. Each piece tells a unique story while maintaining our signature aesthetic of modern elegance.",
+      category: ""
+    },
+    {
+      imageSrc: "https://media.discordapp.net/attachments/1387043965714300974/1389906953731444758/Screenshot_2025-07-02_at_16.52.56.png?ex=68665338&is=686501b8&hm=6facf0da01b5fe99caefe9281792e66c4b45164c82d1aa46f9c4c84241dc91ce&=&format=webp&quality=lossless&width=1030&height=1305",
+      title: 'Onawhim Collection #6',
+      description: "Discover the perfect blend of style and spontaneity with this carefully curated accessory. Each piece tells a unique story while maintaining our signature aesthetic of modern elegance.",
+      category: ""
+    },
+  ];
 
   const handleProductClick = (index: number) => {
     setSelectedProduct(index);
@@ -136,8 +168,8 @@ export default function Home() {
           </BentoGrid>
           
           <ContainerScale className="relative z-10 text-center">
-            <h1 className="max-w-xl text-[72px] font-bold tracking-tighter text-white font-chassi">
-              ONAWHIM
+            <h1 className="max-w-xl text-[124px] font-bold tracking-tighter text-white font-chassi">
+              Onawhim
             </h1>
           </ContainerScale>
         </ContainerScroll>
@@ -148,17 +180,17 @@ export default function Home() {
           <div className='max-w-7xl mx-auto'>
             <div className='flex flex-col lg:flex-row gap-8 lg:gap-20 items-start lg:justify-between w-full'>
               <div className='lg:w-1/3 flex flex-col space-y-4 lg:space-y-6'>
-                <h2 className='text-3xl md:text-4xl xl:text-5xl font-bold'>Product Showcase</h2>
+                <h2 className='text-3xl md:text-4xl xl:text-5xl font-bold'>The Story Behind the Craft</h2>
                 <p className='font-inter text-base md:text-lg text-neutral-700 dark:text-neutral-300 leading-relaxed'>
-                    The e-catalog is a platform that allows users to view and purchase products.
-                    The platform is built using React and Tailwind CSS.
-                    The platform is also responsive, so it can be viewed on desktop, tablet, and mobile devices.
+                    Every piece is more than just an accessory it's a narrative woven with care, tradition, and creativity. Inspired by cultural motifs and handmade using time-honored techniques.
+
+
                 </p>
               </div>
               <div className='w-full'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-32'>
               {imageSrcValArr.map((imageUrl, index) => (
-                <div key={index} onClick={() => handleProductClick(index)} className="cursor-pointer w-full lg:max-w-[320px] mx-auto aspect-square flex items-center justify-center">
+                <div key={index} onClick={() => handleProductClick(index)} className="cursor-pointer font-inter w-full lg:max-w-[320px] mx-auto aspect-square flex items-center justify-center">
                   <TiltedCard
                     imageSrc={imageUrl}
                     altText={altTextVal}

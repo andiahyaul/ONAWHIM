@@ -23,9 +23,9 @@ interface InstagramFeedProps {
 
 export function InstagramFeed({
   title = "Follow Our Journey",
-  subtitle = "Stay connected with ONAWHIM on Instagram",
-  instagramHandle = "@onawhim",
-  instagramUrl = "https://instagram.com/onawhim"
+  subtitle = "",
+  instagramHandle = "@onawhim._",
+  instagramUrl = "https://instagram.com/onawhim._"
 }: InstagramFeedProps) {
   // Mock Instagram posts - in a real implementation, you'd fetch from Instagram API
   // https://www.instagram.com/onawhim._/p/DJbz3Y9TPnl/
