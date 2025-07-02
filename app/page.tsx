@@ -168,7 +168,7 @@ export default function Home() {
           </BentoGrid>
           
           <ContainerScale className="relative z-10 text-center">
-            <h1 className="max-w-xl text-[124px] font-bold tracking-tighter text-white font-chassi">
+            <h1 className="max-w-xl text-[72px] font-bold tracking-tighter text-white font-chassi">
               Onawhim
             </h1>
           </ContainerScale>
