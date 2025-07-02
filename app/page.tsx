@@ -79,13 +79,13 @@ export default function Home() {
       category: ""
     },
     {
-      imageSrc: "https://media.discordapp.net/attachments/1387043965714300974/1389906952997310474/Screenshot_2025-07-02_at_16.52.38.png?ex=68665338&is=686501b8&hm=4ed84f8d79f374ba0abe594c5c7009385875b04dbd3f645bfdfd9fb4622b0fdf&=&format=webp&quality=lossless&width=1055&height=1305",
+      imageSrc: "https://media.discordapp.net/attachments/1387043965714300974/1389907417231265834/IMG_2448.jpeg?ex=686653a7&is=68650227&hm=e899283593ffdb643e20daa4b3c8477a0e799499f3a117682605c2e7220d3771&=&format=webp&width=1610&height=1610",
       title:' Onawhim Collection #5',
       description: "Discover the perfect blend of style and spontaneity with this carefully curated accessory. Each piece tells a unique story while maintaining our signature aesthetic of modern elegance.",
       category: ""
     },
     {
-      imageSrc: "https://media.discordapp.net/attachments/1387043965714300974/1389906953731444758/Screenshot_2025-07-02_at_16.52.56.png?ex=68665338&is=686501b8&hm=6facf0da01b5fe99caefe9281792e66c4b45164c82d1aa46f9c4c84241dc91ce&=&format=webp&quality=lossless&width=1030&height=1305",
+      imageSrc: "https://media.discordapp.net/attachments/1387043965714300974/1389907417717936178/IMG_9799.jpeg?ex=686653a7&is=68650227&hm=85ac1cf08a167817102cacdc7372ca01213e4e494755276e129e1fc4da2be7d3&=&format=webp&width=1208&height=1610",
       title: 'Onawhim Collection #6',
       description: "Discover the perfect blend of style and spontaneity with this carefully curated accessory. Each piece tells a unique story while maintaining our signature aesthetic of modern elegance.",
       category: ""
