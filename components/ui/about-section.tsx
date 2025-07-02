@@ -10,7 +10,6 @@ export function AboutSection({
   subtitle = "",
   description = "Represents the perfect fusion of thoughtful design and spontaneous creativity. Our carefully curated collection of accessories embodies the spirit of living in the moment while maintaining an eye for timeless elegance.",
   features = [
-    "Handpicked accessories for the modern individual",
     "Quality craftsmanship with attention to detail", 
     "Designs that inspire confidence and creativity",
     "Sustainable practices and ethical sourcing"
